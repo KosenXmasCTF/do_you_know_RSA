@@ -9,7 +9,6 @@ RSA暗号機を作ってみたよ！
 
 ## Files
 param.txt
-generate.py
 
 ## writeup
 writeup.md を見てください

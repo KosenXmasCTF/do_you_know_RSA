@@ -7,8 +7,9 @@ def cryption(message, E, N):
     return c
 
 def get_E(L):
-    E_list = [e for e in range(2, 10000) if number.GCD(e, L) == 1]
-    return E_list[random.randint(0, len(E_list) - 1)]
+    # E_list = [e for e in range(2, 10000) if number.GCD(e, L) == 1]
+    # return E_list[random.randint(0, len(E_list) - 1)]
+    return 65537
 
 def message_to_num(msg):
     ret = 0
